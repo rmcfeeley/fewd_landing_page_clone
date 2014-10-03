@@ -29,15 +29,27 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+
 }
 ol, ul {
     list-style: none;
 }
 /* End of Reset */
 /* Start of Custom Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
 .content {
     box-sizing: border-box;
     padding: 0 15px;
+    width: 970px;
+    height: 70px;
 }
 /* Navigation Section */
 .top-navigation {
@@ -45,8 +57,7 @@ ol, ul {
 }
 .top-navigation > .content {
     margin: 0 auto;
-    width: 970px;
-    height: 70px;
+    
 }
 .top-navigation .logo {
     height: 70px;
@@ -54,11 +65,6 @@ ol, ul {
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -71,4 +77,14 @@ ol, ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.introduction {
+     background: url(../img/first-background.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: 0 bottom;
+      height: 559px;
 }
